@@ -4,49 +4,24 @@ Track OpenRocket simulation runs here. Save the `.ork` file alongside this doc a
 
 ---
 
-## Run 1 — [date]
+## Run 1 — [05/08/26]
 
 **File:** `simulations/[filename].ork`
 
 **Configuration:**
 - Motor: C6-5
-- Total mass: TBD
-- Stability margin: TBD (calibers)
+- Total mass: 43.7g
+- Stability margin: 1.1 (calibers)
 
 **Results:**
 | Metric | Value |
 |---|---|
-| Apogee | TBD |
-| Max velocity | TBD |
-| Max acceleration | TBD |
-| Time to apogee | TBD |
-| Ejection delay match | TBD (does ejection fire near apogee?) |
+| Apogee | 248m |
+| Max velocity | 102 m/s |
+| Max acceleration | 318 m/s^2 |
+| Time to apogee | ~3.94 s (optimal delay) |
+| Ejection delay match | motor delay is 5s vs. optimal 3.94s - ~1s overshoot, minor |
 
 **Notes:**
-- (Anything surprising, or changes made after this run)
+- First simulated design. Stable at 1.1 cal. Delay mismatch is small; may consider C6-3 for actual flight, or fly as-is. 
 
----
-
-## Template for future runs
-
-```
-## Run N — [date]
-
-**File:** `simulations/[filename].ork`
-
-**Configuration:**
-- Motor:
-- Total mass:
-- Stability margin:
-
-**Results:**
-| Metric | Value |
-|---|---|
-| Apogee | |
-| Max velocity | |
-| Max acceleration | |
-| Time to apogee | |
-| Ejection delay match | |
-
-**Notes:**
-```

@@ -6,7 +6,7 @@ Track OpenRocket simulation runs here. Save the `.ork` file alongside this doc a
 
 ## Run 1 — [date]
 
-**File:** `simulations/[filename].ork`
+**File:** `simulations/first-design.ork`
 
 **Configuration:**
 - Motor: C6-5

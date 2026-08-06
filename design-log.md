@@ -21,6 +21,21 @@ A running record of design decisions and the reasoning behind them. Update this 
 
 ---
 
+## 2026-08-06 — 3D printing nose cone, centering rings, and motor mount tube
+
+**Decision:** Modeled and 3D printed the nose cone, centering rings, and motor mount tube in Fusion 360. Body tube and fins will be sourced from other materials instead of printed.
+
+**Reasoning:**
+- Nose cone: modeled as a curved ogive profile (matching the OpenRocket design) with a 11.9mm peg to slide into the BT-50 tube.
+- Centering rings: sized 19mm ID (fits over motor mount tube OD) / 23.8mm OD (fits inside body tube ID).
+- Motor mount tube: sized 18mm ID (fits C6 motor) / 19mm OD.
+- Body tube and fins kept as traditional materials rather than printed — printing them would add significant weight (denser than cardboard/balsa) and shift stability/altitude away from the simulated numbers.
+- Nose cone kept as a solid model in Fusion; hollowing will be handled via low infill % in the slicer at print time rather than modeling it hollow directly.
+
+**Open questions:**
+- Need to confirm actual peg/tube fit once printed (measure and adjust tolerances if too tight/loose).
+- Still need to add motor-delay decision entry (from earlier session) if not already logged.
+
 ## Template for future entries
 
 ```
